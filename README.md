@@ -1,4 +1,20 @@
-# vue-web-component-project
+You must have Vue CLI 3 and Vue CLI service.
+
+```
+npm uninstall -g @vue/cli
+npm install -g @vue/cli
+npm install -g @vue/cli-service-global
+```
+
+This project creates a web component using Vue by running the following command:
+
+```
+npm run build --target wc --name my-custom-element ./src/main.js
+```
+
+
+
+# vue-web-component-starter
 
 ## Project setup
 ```
