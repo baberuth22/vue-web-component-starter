@@ -1,3 +1,11 @@
+This project creates a web component using Vue by running the following command:
+
+```
+$ vue-cli-service build --target wc --name my-custom-element ./src/main.js
+```
+
+
+
 # vue-web-component-starter
 
 ## Project setup
