@@ -12,6 +12,18 @@ This project creates a web component using Vue by running the following command:
 vue build --target wc --name my-custom-element ./src/main.js
 ```
 
+Before building, comment out these lines in main js:
+```
+/*
+import App from "./App.vue";
+Vue.config.productionTip = false;
+
+new Vue({
+  render: h => h(App)
+}).$mount("#app");
+*/
+```
+
 Testing the component at localhost:[port]/testing.html by copying min and map js files.
 
 # vue-web-component-starter
