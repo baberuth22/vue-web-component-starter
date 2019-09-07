@@ -1,4 +1,4 @@
-# vue-web-component-project
+# vue-web-component-starter
 
 ## Project setup
 ```
