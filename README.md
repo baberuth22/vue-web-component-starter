@@ -9,7 +9,7 @@ npm install -g @vue/cli-service-global
 This project creates a web component using Vue by running the following command:
 
 ```
-npm run build --target wc --name my-custom-element ./src/main.js
+vue build --target wc --name my-custom-element ./src/main.js
 ```
 
 Testing the component at localhost:[port]/testing.html by copying min and map js files.
